@@ -62,6 +62,42 @@ a {
   object-fit: cover;
 }
 
+.old-post-inner .top-img {
+  height: 40px;
+}
+
+.old-post-inner-1 .img {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 20%;
+}
+
+@media (max-width: 1020px) {
+  .old-post-inner-1 .img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .old-post-inner-1 .img {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+.old-post-inner-1 .img img {
+  max-height: 120px;
+  min-height: 120px;
+}
+
+@media (max-width: 480px) {
+  .old-post-inner-1 .img img {
+    max-height: 100%;
+    width: 100%;
+  }
+}
+
 footer {
   background-color: #f9f9f9;
   padding: 60px 0;
